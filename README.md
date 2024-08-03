@@ -1,4 +1,4 @@
-# Welcome to the BEST Digital SAT Prep EVER MADE!
+d Welcome to the BEST Digital SAT Prep EVER MADE!
 
 First things first, a lot of information used for this was taken from the OFFICIAL DIGITAL SAT PREP FROM KHAN ACADEMY, with many additions and many, many changes. This is NOT a COMPLETE replacement of Khan Academy. It's more like an addition. Kinda. This covers all the text and visual part of Khan
 Academy, but the practice questions are not included. I felt like they're perfect on Khan Academy as they are. So you can learn *here* and solve *there*. 
