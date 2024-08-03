@@ -63,41 +63,46 @@ And as Sal always says...
 
 
 
-
-
 import matplotlib.pyplot as plt
-    from mpl_toolkits.mplot3d import Axes3D
-    
-    # Data
-    verbs = ['be', 'have', 'do', 'say']
-    tenses = ['1st Pres', '3rd Pres Sg', 'Plural Pres', '1st Past', 'Plural Past']
-    conjugations = [
-        ['I am', 'she is', 'we are', 'I was', 'we were'],
-        ['I have', 'she has', 'we have', 'I had', 'we had'],
-        ['I do', 'she does', 'we do', 'I did', 'we did'],
-        ['I say', 'she says', 'we say', 'I said', 'we said']
-    ]
-    
-    # Create figure
-    fig = plt.figure()
-    ax = fig.add_subplot(111, projection='3d')
-    
-    # Plot data
-    for i, verb in enumerate(verbs):
-        for j, tense in enumerate(tenses):
-            ax.text(i, j, 0, conjugations[i][j], color='magenta', ha='center')
-    
-    # Set labels
-    ax.set_xticks(range(len(verbs)))
-    ax.set_xticklabels(verbs)
-    ax.set_yticks(range(len(tenses)))
-    ax.set_yticklabels(tenses)
-    ax.set_zticks([0])
-    ax.set_zticklabels(['Conjugation'])
-    
-    # Set axis labels
-    ax.set_xlabel('Verb')
-    ax.set_ylabel('Tense')
-    ax.set_zlabel('')
-    
-    plt.show()
+import pandas as pd
+import numpy as np
+
+# Data
+data = {
+    'Verb': ['be', 'have', 'do', 'say'],
+    '1st Pres': ['I am', 'I have', 'I do', 'I say'],
+    '3rd Pres Sg': ['she is', 'she has', 'she does', 'she says'],
+    'Plural Pres': ['we are', 'we have', 'we do', 'we say'],
+    '1st Past': ['I was', 'I had', 'I did', 'I said'],
+    'Plural Past': ['we were', 'we had', 'we did', 'we said']
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Plotting
+fig, ax = plt.subplots(figsize=(10, 5))
+
+# Hide axes
+ax.xaxis.set_visible(False) 
+ax.yaxis.set_visible(False)
+ax.set_frame_on(False)
+
+# Table
+table = ax.table(cellText=df.values, colLabels=df.columns, cellLoc='center', loc='center', colColours=['#f2f2f2']*6)
+
+# Style
+table.auto_set_font_size(False)
+table.set_fontsize(14)
+table.scale(1.2, 1.2)
+
+# Color cells
+colors = ['#FFC0CB', '#FFB6C1', '#FF69B4', '#FF1493', '#DB7093', '#C71585']
+for i in range(len(df)):
+    for j in range(len(df.columns)):
+        table[(i+1, j)].set_facecolor(colors[j])
+
+# Title
+plt.title('Verb Conjugations', fontsize=16, weight='bold')
+
+plt.show()
