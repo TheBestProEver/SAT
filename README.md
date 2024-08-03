@@ -1,4 +1,4 @@
-d Welcome to the BEST Digital SAT Prep EVER MADE!
+# Welcome to the BEST Digital SAT Prep EVER MADE!
 
 First things first, a lot of information used for this was taken from the OFFICIAL DIGITAL SAT PREP FROM KHAN ACADEMY, with many additions and many, many changes. This is NOT a COMPLETE replacement of Khan Academy. It's more like an addition. Kinda. This covers all the text and visual part of Khan
 Academy, but the practice questions are not included. I felt like they're perfect on Khan Academy as they are. So you can learn *here* and solve *there*. 
@@ -59,3 +59,45 @@ So let's begin your SAT journey with a BANG! *Or for some of you, hopefully, alm
 
 And as Sal always says...
 # Good luck! You’ve got this.
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+    from mpl_toolkits.mplot3d import Axes3D
+    
+    # Data
+    verbs = ['be', 'have', 'do', 'say']
+    tenses = ['1st Pres', '3rd Pres Sg', 'Plural Pres', '1st Past', 'Plural Past']
+    conjugations = [
+        ['I am', 'she is', 'we are', 'I was', 'we were'],
+        ['I have', 'she has', 'we have', 'I had', 'we had'],
+        ['I do', 'she does', 'we do', 'I did', 'we did'],
+        ['I say', 'she says', 'we say', 'I said', 'we said']
+    ]
+    
+    # Create figure
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    
+    # Plot data
+    for i, verb in enumerate(verbs):
+        for j, tense in enumerate(tenses):
+            ax.text(i, j, 0, conjugations[i][j], color='magenta', ha='center')
+    
+    # Set labels
+    ax.set_xticks(range(len(verbs)))
+    ax.set_xticklabels(verbs)
+    ax.set_yticks(range(len(tenses)))
+    ax.set_yticklabels(tenses)
+    ax.set_zticks([0])
+    ax.set_zticklabels(['Conjugation'])
+    
+    # Set axis labels
+    ax.set_xlabel('Verb')
+    ax.set_ylabel('Tense')
+    ax.set_zlabel('')
+    
+    plt.show()
