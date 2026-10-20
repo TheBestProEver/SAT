@@ -3,26 +3,11 @@
 First things first, a lot of information used for this was taken from the OFFICIAL DIGITAL SAT PREP FROM KHAN ACADEMY, with many additions and many, many changes. This is NOT a COMPLETE replacement of Khan Academy. It's more like an addition. Kinda. This covers all the text and visual part of Khan
 Academy, but the practice questions are not included. I felt like they're perfect on Khan Academy as they are. So you can learn *here* and solve *there*. 
 
-### Important note
-The SAT is not hard. Whatever you've heard is false. It is, no joke, LAUGHABLY easy. I was surprised at how easy it was. Especially the Math section. 
-
 ### Back to the main point
 
 Khan Academy is the Official Source to prepare for the Digital SAT. And that is what I used. It is GREAT, but it has its flaws and drawbacks. So, as a student who understands the SAT, (and although I bought a LOT of unofficial prep books which I never used) I felt like there was no ONE singular source where all the information about the Digital SAT was available FREELY for everyone to access. 
 
-So I created it. This is the ultimate SAT repository.
-
-I am a student who drastically improved his score (250 points as of August 1st) by only studying from Khan Academy for the SAT.
-
-I got 1300 as a diagnostic.
-
-I got 1440 on my December attempt, and I  I honestly expected to get a 1570, but then realized that I needed to work a bit harder for that.
-
-I got a 1490 in March.
-
-I got a 1550 in June, with a breakdown of 800 for Math and 750 for English.
-
-And I am going to be giving the August SAT, with a goal of 1600. We'll see what the outcome is soon!
+So I created it. This is the ultimate SAT repository
 
 Back to the part where this is to help YOU. Since I'm a student, I really do not want this to be closed behind a paywall to other students. Rather, it should be spread far and wide so that as many people can benefit from it as possible. So share it with your friends! Let them know! 
 
@@ -35,10 +20,7 @@ I won't be doing that. I'll provide as much background information as possible, 
 # According to Khan Academy, the best way to prepare for the SAT is:
 *Taken from Khan Academy btw*
 
-
 Khan Academy’s Official Digital SAT Prep includes thousands of SAT Math questions and hundreds of SAT Reading and Writing questions developed by the test-maker, College Board, and loaded with insightful lessons and explanations written by Khan Academy’s test prep experts. Before jumping into practice, though, we recommend getting familiar with the format of the test, the content of the test, and the digital platform on which the test is administered by taking a full-length practice test. *Note: (The platform is Bluebook, which you can download for free by going to the Official College Board Site)*
-
-
 
 That is completely accurate and I could not agree more. I literally told everyone who asked me from where I studied for the SAT never to use any external sources but to rather only use Khan Academy (And the official book). BUT, this is for practicing questions, not learning concepts. That's where I come in with this. I repeat, learn here, solve there.
 
